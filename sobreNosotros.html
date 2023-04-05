@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/b629b846fa.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+      </style>
+</head>
+<body class="fuente-body">
+    <header>
+        <nav class="navbar navbar-expand-lg  color-navbar  fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="./img/Logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="tendencia.html">Últimas tendencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                        <button type="button" class="btn color-botones color-textobotones" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-file-signature fa-beat" style="color:#F9F8EB ;" ></i>Registrarse
+                          </button>
+                          </a>    
+                        </button>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="login.html"><i class="fa-solid fa-user-check fa-beat fa-lg"></i>
+                        Iniciar sesión</a>
+                    </li>
+   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade   " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Crear una cuenta</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="formName" class="form-label">Ingresar nombres</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" pattern="[a-z]+"
+                                    maxlength="20" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formLastname" class="form-label">Ingresar apellidos</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" pattern="[a-z]+"
+                                    maxlength="20" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Ingrese un correo electrónico</label>
+                                <input type="email" class="form-control" id="exampleemail" aria-describedby="emailHelp"
+                                    maxlength="25" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Ingresar una contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" maxlength="16"
+                                    minlength="8" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
+                            </div>
+                            <button type="submit" class="btn color-botones color-textobotones">Guardar cambios</button>
+                            <a href="login.html">.</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+    
+                        </form>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+    </header>
+    
+    <main class="SobreNosotros">
+        <section class="nosotros  align-items-center ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 mt-5 ">
+                        <h2 class="text-center mt-5">Nuestro Equipo</h2>
+                        <p>Somos un equipo conformado por cuatro integrantes. Oriundos de Tucumán nos propusimos plasmar
+                            nustro esfuerzo y dedicacion en este proyecto invirtiendo lo mejor de nosotros en este desafio que
+                            nos llevo a este hermoso resultado.
+                        </p>
+                    </div>
+                    <section>
+                        <div class="container">
+                            <div class="col-sm-4">
+                                <div class="img-class">
+                                    <img src="img/gabri.png.png" alt="" width="200px p-10 mb-">
+                                    <p class="text-center">Soy Gabriela, estudiante de medicina. En mi tiempo libre disfruto
+                                        dibujar y armar cubos rubiks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="col-sm-4">
+                                <div class="img-class">
+                                    <img src="./img/noe.png.png" alt="" width="200px p-10 mb-">
+                                    <p class="text-center">Soy Noelia, estudiante de ingenieria en sistemas de información.
+                                        Disfruto aprendiendo nuevos conceptos y mantenerme actualizada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="col-sm-4">
+                                <div class="img-class">
+                                    <img src="./img/fran.png.png" alt="" width="200px p-10 mb-">
+                                    <p class="text-center">Soy Francisco, me encanta programar y todo lo relacionado con
+                                        Internet y las nuevas tecnologias. Crear cosas y aprender. Soy autodicacta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="col-sm-4">
+                                <div class="img-class">
+                                    <img src="./img/Evelin.png" alt="" width="200px p-10 mb-">
+                                    <p class="text-center">Soy Evelin, Profe de ingles. Me gusta reinventarme, actualizarme
+                                        y proponerme nuevos desafios. En mi tiempo libre disfuto ir al gimnasio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="color-footer ">
+        <div class="container-fluid ">
+            <div class="row texto-footer text-center justify-content-between">
+                <div class="col-sm-12 col-md-2 col-lg-3  mt-3">
+                    <a href="index.html"><img src="img/Logo.PNG" alt="" width="200"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-3 mt-3">
+                    <h5>NOSOTROS</h5>
+                    <P>Somos un grupo de 4 estudiantes de ROLLINGCODE. Para saber más información visita nuestra sección</P>
+                    <a href="sobreNosotros.html">Sobre nosotros</a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-3 mt-3 ">
+                    <h5>SEGUINOS</h5>
+                    <div>
+                        <img src="https://cdn.icon-icons.com/icons2/2973/PNG/96/instagram_logo_icon_186929.png" alt="" width="10%"><a href="Error404.html">Instagram</a>
+                    </div>
+                    <img src="https://cdn.icon-icons.com/icons2/2973/PNG/96/facebook_logo_icon_186912.png" alt="" width="10%"><a href="Error404.html">Facebook</a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
