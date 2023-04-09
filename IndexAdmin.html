@@ -15,100 +15,59 @@
 </head>
 
 <body class="fuente-body">
-
     <header>
-        <nav class="navbar navbar-expand-lg  color-navbar  fixed-top  ">
+        <nav class="navbar navbar-expand-lg color-navbar fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="">
+                <a class="navbar-brand" href="IndexAdmin.html">
                     <img src="img/iconoNavbar.png" alt="Logo" width="40"  class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+                <span class="navbar-toggler-icon"></span>
+              </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link" href="Index.html">Inicio</a>
+                            <a class="nav-link" href="IndexAdmin.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeriasinllogin.html">Galeria</a>
+                            <a class="nav-link" href="galeriaAdmin.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="tendencia.html">Últimas tendencias</a>
+                            <a class="nav-link " href="tendenciaLoginAdmin.html">Últimas tendencias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+                            <a class="nav-link" href="sobreNosotrosAdmin.html">Sobre nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="contacto.html">Contacto</a>
+                            <a class="nav-link " href="contactoAdmin.html">Contacto</a>
                         </li>
+
+
+
+
                     </ul>
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav  ">
 
-
                         <li class="nav-item">
-
-                            <button type="button" class="btn color-botones color-textobotones" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                              <i class="fa-solid fa-file-signature fa-beat" style="color:#F9F8EB ;" ></i>Registrarse
-                            </button>
+                            <a class="nav-link " href="usuario.html"><i class="fa-solid fa-people-group fa-beat fa-lg" style="color:#05004E;"></i>
+                             Usuarios</a>   
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="comics.html"><i class="fa-brands fa-keybase fa-beat fa-lg" style="color:#05004E;"></i>
+                            Comics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" type="btn btn-primary"><i class="fa-solid fa-share-from-square fa-beat" style="color:#05004E;"></i> 
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="login.html"><i class="fa-solid fa-user-check fa-beat fa-lg"></i>
-                         Iniciar sesión</a>
-                        </li>
-
-
 
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Modal -->
-        <div class="modal fade   " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Crear una cuenta</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="formName" class="form-label">Ingresar nombres</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" pattern="[a-z]+" maxlength="20" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="formLastname" class="form-label">Ingresar apellidos</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" pattern="[a-z]+" maxlength="20" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Ingrese un correo electrónico</label>
-                                <input type="email" class="form-control" id="exampleemail" aria-describedby="emailHelp" maxlength="25" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Ingresar una contraseña</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" maxlength="16" minlength="8" required>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
-                            </div>
-                            <button type="submit" class="btn color-botones color-textobotones">Guardar cambios</button>
-                            <a href="login.html">.</a>
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- end -->
-
 
     </header>
 
@@ -117,36 +76,55 @@
 
         <section id="inicio2 ">
 
-           
-            <div id="carouselExample" class="carousel slide margen-carrusel-galeria">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/c4.jpg" class="d-block w-100 img-fluid" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/c5.jpg" class="d-block w-100 img-fluid" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/c6.jpg" class="d-block w-100 img-fluid" alt="...">
-                  </div>
+            <div id="carouselExampleControls" class="carousel slide margenCarrusel " data-bs-ride="carousel">
+                <!-- Controles -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            
+
+                <!-- Carrucel -->
+
+                <div class="carousel-inner ">
+                    <div class="carousel-item active ">
+                        <img src="img/c4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/c5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/c6.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
 
 
         </section>
         <hr>
 
-        <div class="container text-center mb-5 ">
-            <div class="row align-items-start ">
+        <div class="container text-center mb-5">
+            <div class="row align-items-start mt-5">
                 <div class="col-sm-7">
                     <h1> Ultimas tendencias</h1>
 
@@ -286,7 +264,7 @@
         <div class="container-fluid ">
             <div class="row texto-footer text-center justify-content-between">
                 <div class="col-sm-12 col-md-2 col-lg-3  ">
-                    <a href="index.html"><img src="img/Logo.PNG" alt="" width="200"></a>
+                    <a href="IndexAdmin.html"><img src="img/Logo.PNG" alt="" width="200"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-3 mt-3">
                     <h5>NOSOTROS</h5>
